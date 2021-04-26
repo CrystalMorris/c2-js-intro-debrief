@@ -32,7 +32,7 @@ switch(item){
     case 'socks':
         console.log('Socks are $2');
         break;
-    case (item !== 'shoes' || item !== 'jeans' || item !== 'hat' || item !== 'socks'):
+    default:
         console.log('Invalid Item');
         break;
 }
